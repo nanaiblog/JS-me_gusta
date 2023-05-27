@@ -1,0 +1,132 @@
+body{
+    font-family: 'Balsamiq Sans';
+    margin: 0;
+}
+h2{
+    font-family: 'Balsamiq Sans';
+    font-weight: 300;
+}
+a{
+    color: rgb(4, 160, 160);
+    text-decoration: none;
+}
+i{
+    font-weight: 600;
+    font-size: 14pt;
+    line-height: 1px;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;}
+ul{
+    display: flex;
+    list-style-type: none; 
+    padding: 5px;
+    align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+li{
+    padding: 10px 8px 0px 0px;
+}
+p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 10px 0px;
+}
+.navInside{
+    display: flex;
+    max-width: 650px;
+    justify-content: space-between;
+    background-color: rgb(206, 206, 206); 
+    margin: auto;
+}
+.nav-title{
+color: rgb(0, 0, 0);
+padding-left: 20px;
+font-weight: 300;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 20px 5px;
+    box-sizing: border-box;
+  }
+.btn{
+    background-color: rgb(4, 160, 160); 
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    padding: 5px 5px;
+    color: #fff; 
+    width: 90px;
+}
+.btnDef{
+    background-color: rgb(4, 160, 160); 
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    padding: 5px 25px;
+    color: #fff; 
+}
+.btnLikes{
+    background-color: rgb(252, 233, 130); 
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    padding: 5px 5px;
+    margin: 0px 20px;
+    color: #000; 
+    width: 80px;
+    font-weight: 700;
+        font-family: 'Balsamiq Sans';
+
+}
+.contenedor{
+    display: flex;
+    margin: 20px auto ;
+    padding: 0px 5px;
+    max-width: 650px;
+}
+.contenedorPrincipal{
+    flex: 2.5;
+    height: 100%;
+}
+.contenedorDerecho{
+    flex: 1;
+    height: 100%;
+    margin-left: 20px;
+}
+h4 {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.descriptionText{
+    line-height: 1.5em;
+    font-size: 16px;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2em;
+    padding: 10PX 10px 10PX;
+    margin-bottom: 20px;
+    border: 2px solid rgb(160, 160, 160);
+}
+.nombre{
+    flex: 1;
+    margin: 0px;
+}
+.description{
+    flex: 4;
+    padding: auto;
+
+}
+.top{
+    flex-direction: row;
+    display: flex;
+    padding: 18px 0px;
+}
